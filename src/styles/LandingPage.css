@@ -1,0 +1,63 @@
+.lp-container {
+  min-height: calc(100vh - 70px);
+  background: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.lp-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.lp-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.lp-header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.lp-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.lp-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  transition: all 0.25s ease;
+}
+
+.lp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.lp-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.lp-card h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.lp-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
